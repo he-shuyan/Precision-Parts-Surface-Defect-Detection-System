@@ -1,0 +1,15 @@
+# 图像读写（图像处理基础）
+pillow>=10.0
+
+# 深度学习检测（YOLOv8）。安装后系统会自动启用 YOLOv8 引擎
+ultralytics>=8.3
+
+# 模型推理框架。GPU 版请按下述方式安装：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# （RTX 50 系显卡需要 CUDA 12.8 版本；没有 GPU 时可安装 CPU 版）
+torch>=2.7
+torchvision>=0.22
+
+# ONNX 部署（可选）
+onnx>=1.16
+onnxruntime>=1.18
